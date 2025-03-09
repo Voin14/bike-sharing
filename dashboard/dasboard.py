@@ -15,7 +15,7 @@ st.set_page_config(
 alt.themes.enable('dark')
 
 # Load dataset
-df_day = pd.read_csv(r"C:\Users\LENOVO\Documents\Python\BikeSharing\day.csv")
+df_day = pd.read_csv('dashboard/day.csv')
 
 # Konversi tanggal ke datetime
 df_day["dteday"] = pd.to_datetime(df_day["dteday"])
